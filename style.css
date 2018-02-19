@@ -1,20 +1,76 @@
-html,body {
-  height: 100%;
-  margin: 0;
+body{
+    width: 100%;
+    height: 100%;
+
 }
+
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+form{
+    width: 52%;
+    height: 52%;
+    border: 3px #000000 solid;
+    padding: 30px;
 }
 
-form {
-  border: 3px #000000 solid;
-  padding: 30px;
+
+
+
+#informations-personnelles{
+display: flex;
+flex-direction: column;
+align-content: space-between;
 }
 
-form * {
-  margin: 5px;
+#info-perso{
+    padding: 10px;
+}
+
+#prenom-nom{
+    padding:10px;
+}
+
+#dat{
+    padding:10px;
+}
+
+#number{
+    padding: 10px;
+}
+
+
+#évoluer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;   
+}
+
+#evolution{
+    padding: 10px;
+}
+
+#defenseur{
+    padding: 5px;
+}
+
+#milieu{
+    padding: 5px;
+}
+
+#attaquant{
+    padding: 5px;
+}
+
+#button{
+    padding: 5px;
+}
+
+#envoyer{
+    padding: 5px;
 }
